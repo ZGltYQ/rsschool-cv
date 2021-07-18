@@ -39,16 +39,19 @@ JavaScript I’ve been studying for a year now, one of my projects: https://seri
 ### Code examples
 
 Are arrow functions odd?:
-        function odds(values){
-        let a = 0;
-        return values.filter(a=>{
+```
+    function odds(values){
+    let a = 0;
+    return values.filter(a=>{
         return (a % 2) > 0
-        });
-        }
+    });
+    }
+```
 
 Whose bicycle?:
-        function whoseBicycle(...diarys) {
-        const sons = {
+```
+    function whoseBicycle(...diarys) {
+    const sons = {
         son0:{
         frase:"I need to buy a bicycle for my first son.",
         score:null
@@ -61,14 +64,15 @@ Whose bicycle?:
         frase:"I need to buy a bicycle for my third son.",
         score:null
         }
-        }
-        diarys.forEach((diary, id)=>{
+    }
+    diarys.forEach((diary, id)=>{
         const {algebra, history, physics, geography, chemistry} = diary
         sons[`son${id}`].score = algebra + history + physics + geography + chemistry
-        })
-        let id = [sons.son0.score, sons.son1.score, sons.son2.score].lastIndexOf(Math.max(sons.son0.score, sons.son1.score, sons.son2.score))
-        return sons[`son${id}`].frase
-        }
+    })
+    let id = [sons.son0.score, sons.son1.score, sons.son2.score].lastIndexOf(Math.max(sons.son0.score, sons.son1.score, sons.son2.score))
+    return sons[`son${id}`].frase
+    }
+```
 [see more...](https://www.codewars.com/users/ZGltYQ)
 
 ### Work experience
