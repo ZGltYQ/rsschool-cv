@@ -1,5 +1,5 @@
 ## rsschool-cv
-# ![icon](https://img.icons8.com/doodle/96/000000/walter-white.png/>) Halushka Dmitriy
+# ![icon](https://img.icons8.com/doodle/96/000000/walter-white.png) Halushka Dmitriy
 Full-stack JavaScript Developer
 ### Contacts
 * Phone: +380952418851
@@ -39,36 +39,36 @@ JavaScript I’ve been studying for a year now, one of my projects: https://seri
 ### Code examples
 
 Are arrow functions odd?:
-    function odds(values){
-    let a = 0;
-    return values.filter(a=>{
-    return (a % 2) > 0
-    });
-    }
+        function odds(values){
+        let a = 0;
+        return values.filter(a=>{
+        return (a % 2) > 0
+        });
+        }
 
 Whose bicycle?:
-    function whoseBicycle(...diarys) {
-    const sons = {
-    son0:{
-    frase:"I need to buy a bicycle for my first son.",
-    score:null
-    },
-    son1:{
-    frase:"I need to buy a bicycle for my second son.",
-    score:null
-    },
-    son2:{
-    frase:"I need to buy a bicycle for my third son.",
-    score:null
-    }
-    }
-    diarys.forEach((diary, id)=>{
-    const {algebra, history, physics, geography, chemistry} = diary
-    sons[`son${id}`].score = algebra + history + physics + geography + chemistry
-    })
-    let id = [sons.son0.score, sons.son1.score, sons.son2.score].lastIndexOf(Math.max(sons.son0.score, sons.son1.score, sons.son2.score))
-    return sons[`son${id}`].frase
-    }
+        function whoseBicycle(...diarys) {
+        const sons = {
+        son0:{
+        frase:"I need to buy a bicycle for my first son.",
+        score:null
+        },
+        son1:{
+        frase:"I need to buy a bicycle for my second son.",
+        score:null
+        },
+        son2:{
+        frase:"I need to buy a bicycle for my third son.",
+        score:null
+        }
+        }
+        diarys.forEach((diary, id)=>{
+        const {algebra, history, physics, geography, chemistry} = diary
+        sons[`son${id}`].score = algebra + history + physics + geography + chemistry
+        })
+        let id = [sons.son0.score, sons.son1.score, sons.son2.score].lastIndexOf(Math.max(sons.son0.score, sons.son1.score, sons.son2.score))
+        return sons[`son${id}`].frase
+        }
 [see more...](https://www.codewars.com/users/ZGltYQ)
 
 ### Work experience
