@@ -42,29 +42,29 @@ Are arrow functions odd?:
     function odds(values){
     let a = 0;
     return values.filter(a=>{
-        return (a % 2) > 0
+    return (a % 2) > 0
     });
     }
 
 Whose bicycle?:
     function whoseBicycle(...diarys) {
     const sons = {
-        son0:{
-        frase:"I need to buy a bicycle for my first son.",
-        score:null
-        },
-        son1:{
-        frase:"I need to buy a bicycle for my second son.",
-        score:null
-        },
-        son2:{
-        frase:"I need to buy a bicycle for my third son.",
-        score:null
-        }
+    son0:{
+    frase:"I need to buy a bicycle for my first son.",
+    score:null
+    },
+    son1:{
+    frase:"I need to buy a bicycle for my second son.",
+    score:null
+    },
+    son2:{
+    frase:"I need to buy a bicycle for my third son.",
+    score:null
+    }
     }
     diarys.forEach((diary, id)=>{
-        const {algebra, history, physics, geography, chemistry} = diary
-        sons[`son${id}`].score = algebra + history + physics + geography + chemistry
+    const {algebra, history, physics, geography, chemistry} = diary
+    sons[`son${id}`].score = algebra + history + physics + geography + chemistry
     })
     let id = [sons.son0.score, sons.son1.score, sons.son2.score].lastIndexOf(Math.max(sons.son0.score, sons.son1.score, sons.son2.score))
     return sons[`son${id}`].frase
@@ -79,6 +79,7 @@ Whose bicycle?:
 
 ### Education
 Uncompleted higher education. Student at the National Transport University (2019 - 2023). 
+
 Finished courses:
 1. [React + Redux - Профессиональная Разработка](https://www.udemy.com/course/pro-react-redux)
 
