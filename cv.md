@@ -1,4 +1,3 @@
-## rsschool-cv
 # ![icon](https://img.icons8.com/doodle/96/000000/walter-white.png) Halushka Dmitriy
 Full-stack JavaScript Developer
 ### Contacts
@@ -8,7 +7,7 @@ Full-stack JavaScript Developer
 * GitHub: [GitHub](https://github.com/ZGltYQ)
 
 ### About me
-My name id Dima i am from Kyiv and I'm 20 years old.
+My name is Dima i am from Kyiv and I'm 20 years old.
 I love programming and TV shows and anime.
 I’m a third-year student of Kyiv "National Transport University" in the field of "computer science", I’ve been studying programming for about two years.
 JavaScript I’ve been studying for a year now, one of my projects: https://serialtown.ninja.
